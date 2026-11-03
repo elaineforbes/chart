@@ -13,7 +13,7 @@ Hello *world!*
 
 # https://docs.streamlit.io/develop/api-reference/charts/st.line_chart
 
-df = pd.DataFrame(rng(2).standard_normal((20, 3)), columns=["a", "b", "c"])
+df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=["a", "b", "c"])
 st.line_chart(df)
 
 # try my own data
